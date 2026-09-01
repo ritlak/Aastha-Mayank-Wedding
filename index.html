@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Aastha & Mayank Wedding</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+    <!-- ========================= -->
+    <!-- ENVELOPE -->
+    <!-- ========================= -->
+
+    <div id="envelope">
+
+        <div class="envelope-wrapper">
+
+            <div class="envelope-body">
+
+                <div class="wax-seal">
+                    A & M
+                </div>
+
+            </div>
+
+            <div class="envelope-flap"></div>
+
+        </div>
+
+        <p class="tap-text">
+            TOGETHER WITH THEIR FAMILIES
+        </p>
+
+        <button onclick="openInvitation()">
+            OPEN INVITATION
+        </button>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- INVITATION -->
+    <!-- ========================= -->
+
+    <main
+        class="card"
+        id="invitationCard"
+    >
+
+        <!-- HERO -->
+
+        <section class="hero-section">
+
+            <p class="hero-small">
+                TOGETHER WITH THEIR FAMILIES
+            </p>
+
+            <div class="gold-line"></div>
+
+            <p class="subtitle">
+                REQUEST THE PLEASURE OF YOUR COMPANY
+            </p>
+
+            <div class="floral-symbol">
+                ❈
+            </div>
+
+            <div class="names">
+
+                <span id="brideName">
+                    Aastha
+                </span>
+
+                <small>
+                    &
+                </small>
+
+                <span id="groomName">
+                    Mayank
+                </span>
+
+            </div>
+
+            <p class="hero-bottom">
+                ON THEIR SPECIAL DAY
+            </p>
+
+        </section>
+
+
+        <!-- DATE -->
+
+        <section class="date-section">
+
+            <div class="gold-line"></div>
+
+            <p
+                id="weddingDate"
+                class="date"
+            >
+                12th September, Saturday
+            </p>
+
+            <p
+                id="weddingTime"
+                class="wedding-time"
+            >
+                8:00 PM
+            </p>
+
+        </section>
+
+
+        <!-- COUNTDOWN -->
+
+        <section class="countdown-section">
+
+            <p class="section-label">
+                COUNTING DOWN TO OUR CELEBRATION
+            </p>
+
+            <div id="countdown">
+
+                <div class="time-box">
+                    <span id="days">00</span>
+                    <small>DAYS</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="hours">00</span>
+                    <small>HOURS</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="minutes">00</span>
+                    <small>MINUTES</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="seconds">00</span>
+                    <small>SECONDS</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- STORY -->
+
+        <section class="story-section reveal">
+
+            <div class="floral-symbol">
+                ✦
+            </div>
+
+            <p class="section-label">
+                A BEAUTIFUL BEGINNING
+            </p>
+
+            <h2>
+                Two Hearts<br>
+                One Journey
+            </h2>
+
+            <p class="story-text">
+                With love in their hearts and dreams in their eyes,
+                Aastha and Mayank invite you to celebrate the beginning
+                of their beautiful journey together.
+            </p>
+
+        </section>
+
+
+        <!-- EVENTS -->
+
+        <section class="events-section reveal">
+
+            <div class="floral-symbol">
+                ❈
+            </div>
+
+            <p class="section-label">
+                THE CELEBRATION
+            </p>
+
+            <h2>
+                Wedding Moments
+            </h2>
+
+
+            <div class="event-card">
+
+                <div class="event-time">
+                    <span id="baratTime">
+                        8:00 PM
+                    </span>
+                </div>
+
+                <h3>
+                    Arrival of Barat
+                </h3>
+
+                <p>
+                    Let the celebrations begin.
+                </p>
+
+            </div>
+
+
+            <div class="event-card">
+
+                <div class="event-time">
+                    <span id="dinnerTime">
+                        9:00 PM
+                    </span>
+                </div>
+
+                <h3>
+                    Dinner
+                </h3>
+
+                <p>
+                    An evening of food, love and togetherness.
+                </p>
+
+            </div>
+
+
+            <div class="event-card">
+
+                <div class="event-time">
+                    ✦
+                </div>
+
+                <h3 id="doliText">
+                    Doli Tarron Ki Chhaon Mein
+                </h3>
+
+                <p>
+                    A beautiful farewell filled with blessings.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- GALLERY -->
+
+        <section class="gallery-section reveal">
+
+            <div class="floral-symbol">
+                ✦
+            </div>
+
+            <p class="section-label">
+                OUR BEAUTIFUL JOURNEY
+            </p>
+
+            <h2>
+                Moments
+            </h2>
+
+            <div class="photo-gallery">
+
+                <img
+                    id="photoPreview1"
+                    src="images/photo1.jpg"
+                    alt="Wedding photo"
+                >
+
+                <img
+                    id="photoPreview2"
+                    src="images/photo2.jpg"
+                    alt="Wedding photo"
+                >
+
+                <img
+                    id="photoPreview3"
+                    src="images/photo3.jpg"
+                    alt="Wedding photo"
+                >
+
+            </div>
+
+        </section>
+
+
+        <!-- VENUE -->
+
+        <section class="venue-section reveal">
+
+            <div class="floral-symbol">
+                ❈
+            </div>
+
+            <p class="section-label">
+                JOIN US
+            </p>
+
+            <h2>
+                The Venue
+            </h2>
+
+            <h3 id="venueText">
+                Park Blu
+            </h3>
+
+            <p id="locationText">
+                Murthal, Sonipat
+            </p>
+
+            <a
+                id="mapButton"
+                class="map-button"
+                href="https://maps.app.goo.gl/maC8bGHByAHnnKD19?g_st=ic"
+                target="_blank"
+                rel="noopener"
+            >
+                📍 VIEW LOCATION
+            </a>
+
+        </section>
+
+
+        <!-- MUSIC -->
+
+        <section class="music-section reveal">
+
+            <div class="floral-symbol">
+                ♫
+            </div>
+
+            <p class="section-label">
+                OUR SONG
+            </p>
+
+            <h2 id="songText">
+                Kachche Kandeyan Ne
+            </h2>
+
+            <audio
+                id="weddingMusic"
+                loop
+            >
+
+                <source
+                    src="audio/wedding-song.mp3"
+                    type="audio/mpeg"
+                >
+
+            </audio>
+
+            <button
+                id="musicButton"
+                onclick="toggleMusic()"
+            >
+                ▶ PLAY MUSIC
+            </button>
+
+        </section>
+
+
+        <!-- RSVP -->
+
+        <section class="rsvp-section reveal">
+
+            <div class="floral-symbol">
+                ✦
+            </div>
+
+            <p class="section-label">
+                WITH LOVE
+            </p>
+
+            <h2>
+                RSVP
+            </h2>
+
+            <p>
+                With warm regards from
+            </p>
+
+            <div
+                id="familiesText"
+                class="families"
+            >
+                Ailawadi Family<br>
+                Khanna Family<br>
+                Gulati Family<br>
+                Popli Family
+            </div>
+
+        </section>
+
+
+        <!-- CLOSING -->
+
+        <section class="closing-section reveal">
+
+            <div class="floral-symbol">
+                ❈
+            </div>
+
+            <h2>
+                We Can't Wait<br>
+                To Celebrate With You
+            </h2>
+
+            <p>
+                Aastha & Mayank
+            </p>
+
+            <div class="gold-line"></div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ========================= -->
+    <!-- FLOATING MUSIC BUTTON -->
+    <!-- ========================= -->
+
+    <button
+        id="floatingMusic"
+        onclick="toggleMusic()"
+    >
+        ♫
+    </button>
+
+
+    <!-- ========================= -->
+    <!-- EDITOR CONTROLS -->
+    <!-- ========================= -->
+
+    <div class="editor-controls">
+
+        <button onclick="showEditor()">
+            ✏️ EDIT INVITATION
+        </button>
+
+        <button onclick="hideEditor()">
+            👀 PREVIEW
+        </button>
+
+    </div>
+
+
+    <!-- ========================= -->
+    <!-- EDITOR -->
+    <!-- ========================= -->
+
+    <div id="editor">
+
+        <div class="editor-header">
+
+            <h2>
+                Edit Invitation
+            </h2>
+
+            <button
+                class="close-editor"
+                onclick="hideEditor()"
+            >
+                ✕
+            </button>
+
+        </div>
+
+
+        <label>
+            Bride's Name
+
+            <input
+                id="brideInput"
+                value="Aastha"
+            >
+        </label>
+
+
+        <label>
+            Groom's Name
+
+            <input
+                id="groomInput"
+                value="Mayank"
+            >
+        </label>
+
+
+        <label>
+            Wedding Date
+
+            <input
+                id="dateInput"
+                value="12th September, Saturday"
+            >
+        </label>
+
+
+        <label>
+            Wedding Time
+
+            <input
+                id="timeInput"
+                value="8:00 PM"
+            >
+        </label>
+
+
+        <label>
+            Venue
+
+            <input
+                id="venueInput"
+                value="Park Blu"
+            >
+        </label>
+
+
+        <label>
+            Location
+
+            <input
+                id="locationInput"
+                value="Murthal, Sonipat"
+            >
+        </label>
+
+
+        <label>
+            Google Maps Link
+
+            <input
+                id="mapInput"
+                value="https://maps.app.goo.gl/maC8bGHByAHnnKD19?g_st=ic"
+            >
+        </label>
+
+
+        <label>
+            Barat Time
+
+            <input
+                id="baratInput"
+                value="8:00 PM"
+            >
+        </label>
+
+
+        <label>
+            Dinner Time
+
+            <input
+                id="dinnerInput"
+                value="9:00 PM"
+            >
+        </label>
+
+
+        <label>
+            Doli Text
+
+            <input
+                id="doliInput"
+                value="Doli Tarron Ki Chhaon Mein"
+            >
+        </label>
+
+
+        <label>
+            Wedding Song
+
+            <input
+                id="songInput"
+                value="Kachche Kandeyan Ne"
+            >
+        </label>
+
+
+        <label>
+            RSVP Families
+
+            <textarea id="familiesInput">Ailawadi Family
+Khanna Family
+Gulati Family
+Popli Family</textarea>
+
+        </label>
+
+
+        <label>
+            Couple Photo 1
+
+            <input
+                type="file"
+                id="photoInput1"
+                accept="image/*"
+            >
+        </label>
+
+
+        <label>
+            Couple Photo 2
+
+            <input
+                type="file"
+                id="photoInput2"
+                accept="image/*"
+            >
+        </label>
+
+
+        <label>
+            Couple Photo 3
+
+            <input
+                type="file"
+                id="photoInput3"
+                accept="image/*"
+            >
+        </label>
+
+
+        <button
+            class="save-button"
+            onclick="saveInvitation()"
+        >
+            💾 SAVE INVITATION
+        </button>
+
+
+        <p id="saveMessage"></p>
+
+
+        <button
+            class="reset-button"
+            onclick="resetInvitation()"
+        >
+            RESET DEMO
+        </button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
